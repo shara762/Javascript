@@ -35,3 +35,14 @@ console.log(firstele.toString());                      //first element print
 
  // ******************************************************************************************
 
+ var name=['fara','mosin','ashwini','sanjana','prajwal','shara'];
+ var removelment=name.shift();
+ console.log("after removing first element",name);
+
+ // que . remove and delete first element from array
+//  // removed element : fara
+
+// ******************************************************************************
+ var arr = [10,15,20,30,35,40]
+ var newfun=Object.assign(arr);
+ console.log(typeof newfun);                     //clone with predefine function
